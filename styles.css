@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #aa2d84;
+}
+
+.user-img {
+    width: 50px; /* Ajusta el tamaño de las imágenes */
+    height: 50px;
+    border-radius: 50%; /* Hace que las imágenes sean redondas */
+}
+
+.loader {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/* Estilos para el botón */
+.btn {
+    display: block; /* Hace que el botón se comporte como un bloque */
+    margin: 0 auto; /* Centra el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #ff6f91; /* Color de fondo rosado */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.btn:hover {
+    background-color: #ff3e7a; /* Color al pasar el mouse */
+}
